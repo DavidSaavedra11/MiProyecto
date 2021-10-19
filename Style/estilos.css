@@ -8,9 +8,27 @@ ul{
     padding: 0px;/*el padding se deja en cero ya que la listas UL tienen un padding un margin por defecto asi como otros estilos*/
     margin: 0px;
 }
+
 .barraNavegacion{
     display: flex; /*el tipo de display indica cuanto espacio ocupara a palabra, en block ocupa todo el espacion de lado a lado y el flex solo lo que ocupe la palabra*/
     justify-content: space-between; /*da un espacion entre cada palabra de la lista*/
     padding: 10PX;
 
 }
+
+
+.buscar{ /*esta clase es para el div que contiene al input y al logo, asi podemos darle un borde que los englobe a ambos*/
+    background-color: white;
+    border: 1px solid gray; /*Este es el borde que los engloba debe especificar solid*/
+    padding: 4px;
+    border-radius: 8px;/*redondea las puntas de los bordes*/
+}
+.buscar:focus-within{  /*esta pseudoClase se usa para dar color apenas enfoquemos el cursor dentro del componente*/
+    border: 3px solid rgb(30, 157, 62);
+    
+}
+.buscar > input{  /**/
+    outline: none;
+    border: 0px;
+}
+
