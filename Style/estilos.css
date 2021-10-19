@@ -14,10 +14,10 @@ ul{
     padding: 10PX;
 
 }
-<<<<<<< HEAD
 .logo{
     height: 70px;
-=======
+}
+
 .mainButton{
     background-color: green;
     color: aliceblue;
@@ -33,5 +33,4 @@ ul{
     cursor: pointer; /*Para que salga la manito cuando se pasa por el boton*/
     transform: scale(1.2); /*aumenta el tamaño del boton al pasar por encima*/
     box-shadow: 3px 3px black; /*Sombra del boton*/
->>>>>>> 5-crear-boton-nuevo-post
 }
