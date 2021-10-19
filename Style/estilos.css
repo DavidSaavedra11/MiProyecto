@@ -14,36 +14,36 @@ ul{
     padding: 10PX;
 
 }
+.button{
+    border: 0px;
+    padding: 8px 10px;
+    border-radius: 10px; /*es la curva del borde*/
+    font-weight: bolder; /*es como una negrilla*/    
+}
+
+.button:hover{
+    cursor: pointer; /*Para que salga la manito cuando se pasa por el boton*/
+    transform: scale(1.2); /*aumenta el tamaño del boton al pasar por encima*/
+}
+
 .mainButton{
     background-color: green;
     color: aliceblue;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px; /*es la curva del borde*/
-    font-weight: bolder; /*es como una negrilla*/
     box-shadow: 2px 2px black; /*Sombra del boton*/
     
 }
 
 .mainButton:hover{
-    cursor: pointer; /*Para que salga la manito cuando se pasa por el boton*/
-    transform: scale(1.2); /*aumenta el tamaño del boton al pasar por encima*/
     box-shadow: 3px 3px black; /*Sombra del boton*/
 }
 
 .secundaryButtom{
     background-color: rgb(37, 178, 202);
     color: aliceblue;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px; /*es la curva del borde*/
-    font-weight: bolder; /*es como una negrilla*/
     box-shadow: 2px 2px black; /*Sombra del boton*/
     
 }
 
 .secundaryButtom:hover{
-    cursor: pointer; /*Para que salga la manito cuando se pasa por el boton*/
-    transform: scale(1.2); /*aumenta el tamaño del boton al pasar por encima*/
     box-shadow: 3px 3px black; /*Sombra del boton*/
 }
