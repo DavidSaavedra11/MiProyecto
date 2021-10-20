@@ -13,8 +13,16 @@ ul{
     display: flex; /*el tipo de display indica cuanto espacio ocupara a palabra, en block ocupa todo el espacion de lado a lado y el flex solo lo que ocupe la palabra*/
     justify-content: space-between; /*da un espacion entre cada palabra de la lista*/
     padding: 10PX;
-
+    background-color: rgba(226, 250, 12, 0.905);
+    border-bottom: 1px solid rgb(216, 14, 14); /*borde para que parezca noton*/
+    box-shadow: 1px 1px rgb(12, 5, 5);/*sombra*/
 }
+
+.barraNavegacion > li{
+    display: flex; /*este display se usa para los componentes dentro del navbar y sirve para usar el atributo de la siguiente linea para centrarlos*/
+    align-items: center;
+}
+
 .logo{
     height: 70px;
 }
@@ -59,6 +67,9 @@ ul{
     border: 1px solid gray; /*Este es el borde que los engloba debe especificar solid*/
     padding: 4px;
     border-radius: 8px;/*redondea las puntas de los bordes*/
+    width: 300px;
+    display:flex ;
+    justify-content: space-between;
 }
 .buscar:focus-within{  /*esta pseudoClase se usa para dar color apenas enfoquemos el cursor dentro del componente*/
     border: 3px solid rgb(30, 157, 62);
@@ -69,3 +80,6 @@ ul{
     border: 0px;
 }
 
+.iconobusqueda:hover{
+    color: rgb(39, 201, 24);
+}
