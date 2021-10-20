@@ -90,16 +90,37 @@ ul{
 
 .breedCard{
     margin: 10px;
+    background-color: rgba(15, 15, 15, 0.905);/*color fondo li*/
+    box-shadow: 5px 10px 8px; /*sombra card !genial¡*/
+    border-top-right-radius: 10px; /*Colocando bordes en la parte de arriba de la imagen*/
+    border-top-left-radius: 10px;
+}
+
+.breedTitle{  /*Clase para el span del titulo de cada card*/
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .contenedorImagenes{
     width: 240px;
     height: 350px;
     display: flex;
+    margin-bottom: 10px;
+ 
+}
+
+.contenedorImagenes:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .contenedorImagenes > img{  /*El object-fit sirve para darle el formato a nuestras imagnes y solo funciona si la clase padre tiene un display flex*/
     object-fit: cover;
     width: 100%; /*con esto hacemos que las imagenes sean iguales y varien los tamaños*/ 
+    border-top-right-radius: 10px; /*Colocando bordes en la parte de arriba de la imagen*/
+    border-top-left-radius: 10px;
 }
+
 
