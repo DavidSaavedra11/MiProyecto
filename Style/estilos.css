@@ -83,3 +83,23 @@ ul{
 .iconobusqueda:hover{
     color: rgb(39, 201, 24);
 }
+
+.breedCardContainer{
+    display: flex;
+}
+
+.breedCard{
+    margin: 10px;
+}
+
+.contenedorImagenes{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagenes > img{  /*El object-fit sirve para darle el formato a nuestras imagnes y solo funciona si la clase padre tiene un display flex*/
+    object-fit: cover;
+    width: 100%; /*con esto hacemos que las imagenes sean iguales y varien los tamaños*/ 
+}
+
