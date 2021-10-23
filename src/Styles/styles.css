@@ -96,6 +96,7 @@ ul{
     border-top-left-radius: 10px;
 }
 
+
 .breedTitle{  /*Clase para el span del titulo de cada card*/
     color: white;
     margin: 10px;
@@ -124,3 +125,6 @@ ul{
 }
 
 
+.backgroundRojo{
+    background-color: red;
+}

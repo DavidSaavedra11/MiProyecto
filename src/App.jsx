@@ -9,7 +9,7 @@ function App() {
       <header>
         <ul className="barraNavegacion">
           <li>
-            <img className="logo" src={logo} alt="imagen"/>
+            <img className="logo" src={logo} alt="imagen" />
           </li>
 
           <li>
@@ -35,31 +35,31 @@ function App() {
       <main>
         <section>
           <h1>Razas de Perros</h1>
-
-          <ul className="breedCardContainer">
-
-            <li className="breedCard">
-              <div className="contenedorImagenes">
-                <img src={borderCollie} alt="Border Collie"/>
-              </div>
-              <span className="breedTitle">Border Collie</span>
-            </li>
-
-            <li className="breedCard">
-              <div className="contenedorImagenes">
-                <img src={huskey} alt="Huskey"/>
-              </div>
-              <span className="breedTitle">Huskey</span>
-            </li>
-
-            <li>Raza3</li>
-          </ul>
+            <ul className="breedCardContainer">
+              <CardRazasPerros nombreRazas='BorderCollie' imagen={borderCollie}/>
+              <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
+              <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
+              <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
+              <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
+            </ul>
         </section>
         <section></section>
       </main>
       <footer></footer>
     </div>
   );
+}
+
+// ------------------------------------------COMPONENTE 1
+function CardRazasPerros({nombreRazas, imagen}) {
+  return (
+    <li className="breedCard backgroundRojo">
+      <div className="contenedorImagenes">
+        <img src={imagen} alt={nombreRazas} />
+      </div>
+      <span className="breedTitle ">{nombreRazas}</span>
+    </li>
+  )
 }
 
 export default App;
