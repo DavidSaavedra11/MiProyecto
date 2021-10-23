@@ -1,7 +1,8 @@
-import logo from './Media/LogoArdilla3.png';
-import './Styles/styles.css';
-import borderCollie from './Media/BorderCollie.jpg';
-import huskey from './Media/Huskey.jpg';
+import CardRazasPerros from 'Components/CardRazasPerros';
+import logo from 'Media/LogoArdilla3.png';
+import 'Styles/styles.css';
+import borderCollie from 'Media/BorderCollie.jpg';
+import huskey from 'Media/Huskey.jpg';
 
 function App() {
   return (
@@ -50,16 +51,5 @@ function App() {
   );
 }
 
-// ------------------------------------------COMPONENTE 1
-function CardRazasPerros({nombreRazas, imagen}) {
-  return (
-    <li className="breedCard backgroundRojo">
-      <div className="contenedorImagenes">
-        <img src={imagen} alt={nombreRazas} />
-      </div>
-      <span className="breedTitle ">{nombreRazas}</span>
-    </li>
-  )
-}
 
 export default App;
