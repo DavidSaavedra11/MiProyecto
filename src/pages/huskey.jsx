@@ -1,6 +1,7 @@
 function HuskeyInfoPage() {
-    return <div>Esta es la pagina info del huskey</div>;
-    
+    return (
+        <div>Informacion sobre el huskey</div>
+    );
 }
 
 export default HuskeyInfoPage;

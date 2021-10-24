@@ -9,6 +9,21 @@ ul{
     margin: 0px;
 }
 
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.mainContainer > main{
+    height: 100%;
+}
+
+.mainContainer > footer{
+    background-color: rgba(226, 250, 12, 0.905);
+    padding: 10px;
+}
+
 .barraNavegacion{
     display: flex; /*el tipo de display indica cuanto espacio ocupara a palabra, en block ocupa todo el espacion de lado a lado y el flex solo lo que ocupe la palabra*/
     justify-content: space-between; /*da un espacion entre cada palabra de la lista*/
