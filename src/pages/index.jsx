@@ -13,7 +13,9 @@ function Index() {
                     <CardRazasPerros nombreRazas='BorderCollie' imagen={borderCollie} />
                     <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
                     <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
+                    <CardRazasPerros nombreRazas='BorderCollie' imagen={borderCollie} />
                     <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
+                    <CardRazasPerros nombreRazas='BorderCollie' imagen={borderCollie} />
                     <CardRazasPerros nombreRazas='Huskey' imagen={huskey} />
                 </ul>
             </section>
